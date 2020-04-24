@@ -1,0 +1,13 @@
+* {
+    font-family: 'Museo', sans-serif;
+}
+.container {
+    position: relative;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+@import 'blocks/title';
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/adventeger';

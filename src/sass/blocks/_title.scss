@@ -1,0 +1,16 @@
+.title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.842);
+    margin-top: 100px;
+    &::after {
+        content: '';
+        display: block;
+        width: 50px;
+        height: 3px;
+        background-color: #e95095;
+        margin: 20px auto;
+
+    }
+}
