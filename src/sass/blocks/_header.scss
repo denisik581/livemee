@@ -87,20 +87,20 @@ header {
             }
         }
     }
-}
-h1 {
-    color: #fff;
-    font-size: 100px;
-    line-height: 100px;
-    text-align: center;
-    padding-top: 12%;
-}
-h2 {
-    color: #fff;
-    font-size: 30px;
-    line-height: 30px;
-    letter-spacing: 0.1px;
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 30px;
+    h1 {
+        color: #fff;
+        font-size: 100px;
+        line-height: 100px;
+        text-align: center;
+        padding-top: 12%;
+    }
+    .header__subtitle {
+        color: #fff;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.1px;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 30px;
+    }
 }

@@ -10,4 +10,15 @@
     &:hover {
         background-color: #e95095e3;
     }
+    &_subadventeger {
+        background-color: transparent;
+        border: 1px solid #fff;
+        margin-top: 20px;
+        transition: border .35s border-bottom .35s;
+        &:hover {
+            border: 1px solid #e95095;
+            border-bottom: solid 3px rgba(0, 0, 0, 0.2);
+            background-color: #e95095;
+        }
+    }
 }

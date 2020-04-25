@@ -1,0 +1,21 @@
+.partners {
+    min-height: 260px;
+    position: relative;
+    margin-bottom: 100px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        &-item {
+            display: flex;
+            align-items: center;
+            width: 165px;
+            height: 165px;
+            background-color: #fafafa;
+            box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+            img {
+                width: 100%;
+                padding: 10px;
+            }
+        }
+    }
+}
