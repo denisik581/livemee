@@ -1,0 +1,35 @@
+.whyliveme {
+    position: relative;
+    min-height: 900px;
+    margin-bottom: 100px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-img {
+            width: 41%;
+            display: flex;
+            justify-content: start;
+            img {
+                display: block;
+                width: 50%;
+                padding: 3px;
+                border-radius: 11px;
+            }
+        }
+        &-descr {
+            width: 53.5%;
+            font-size: 17px;
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+    &__descr {
+        margin-top: 50px;
+        font-size: 17px;
+        span {
+            font-weight: bold;
+        }
+    }
+}

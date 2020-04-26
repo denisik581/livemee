@@ -11,6 +11,14 @@
                 width: 90%;
                 margin: 0 auto;
                 font-size: 17px;
+                span {
+                    font-weight: bold;
+                }
+                a {
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
             }
         }
         &-img {
