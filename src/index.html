@@ -10,20 +10,20 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <header>
+    <header id="main" class="anchor">
 
         <div class="menu">
-            <div class="menu__logo"><a href="#">LiveMe Agency KZ</a></div>
+            <div class="menu__logo"><a href="#main">LiveMe Agency KZ</a></div>
             <nav>
                 <ul class="menu__nav">
-                    <li><a href="#">ГЛАВНАЯ</a></li>
-                    <li><a href="#">О LIVEME</a></li>
-                    <li><a href="#">ЕЩЁ <span>&rsaquo;</span></a>
+                    <li><a href="#main" class="scroll-to active">ГЛАВНАЯ</a></li>
+                    <li><a href="#adventeger" class="scroll-to">О LIVEME</a></li>
+                    <li><a href="#escho" class="scroll-to">ЕЩЁ<span>&rsaquo;</span></a>
                         <ul class="descr">
-                            <li><a href="#">ПОЧЕМУ ИМЕННО LIVEME</a></li>
-                            <li><a href="#">ВОПРОС/ОТВЕТ</a></li>
-                            <li><a href="#">ХОЧУ В LIVEME (ТОЛЬКО ОТ 18 ЛЕТ)</a></li>
-                            <li><a href="#">ПРИЛОЖЕНИЕ</a></li>
+                            <li><a href="#whyliveme" class="scroll-to">ПОЧЕМУ ИМЕННО LIVEME</a></li>
+                            <li><a href="#questionAnswer" class="scroll-to">ВОПРОС/ОТВЕТ</a></li>
+                            <li><a href="#contacts" class="scroll-to">ХОЧУ В LIVEME (ТОЛЬКО ОТ 18 ЛЕТ)</a></li>
+                            <li><a href="#apps" class="scroll-to">ПРИЛОЖЕНИЕ</a></li>
                         </ul>
                     </li>
                     <li><a href="#" class="menu__nav-icon"><img src="icon/alt.svg" alt="alt"></a></li>
@@ -37,7 +37,7 @@
         <h2 class="header__subtitle">Мы ищем именно тебя!</h2>
         <button class="button"><a href="https://vk.com/away.php?utf=1&to=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSd4teqQ9FtPRZXek8pYDtqER_C_EhYXX9dHgWp02dpDfMepKQ%2Fviewform%3Fusp%3Dsf_link" target="_blank">ХOЧУ В LIVE ME</a></button>
     </header>
-    <section class="adventeger">
+    <section class="adventeger anchor" id="adventeger">
         <div class="title">О LIVEME</div>
         <div class="container">
             <div class="adventeger__wrapper">
@@ -66,9 +66,9 @@
             </div>
         </div>
     </section>
-    <section class="subadventeger">
+    <section class="subadventeger" id="#subadventeger">
         <h2 class="subadventeger__subtitle">Почему именно Live Me?</h2>
-        <button class="button button_subadventeger"><a href="#">ЧИТАТЬ ДАЛЕЕ</a></button>
+        <button class="button button_subadventeger"><a href="#whyliveme">ЧИТАТЬ ДАЛЕЕ</a></button>
     </section>
     <section class="partners">
         <div class="title">ПАРТНЁРЫ</div>
@@ -109,7 +109,8 @@
             </div>
         </div>
     </section>
-    <section class="whyliveme">
+   <div id="escho">
+    <section class="whyliveme anchor" id="whyliveme">
         <div class="title">ПОЧЕМУ ИМЕННО LIVEME</div>
         <div class="container">
             <div class="whyliveme__wrapper">
@@ -154,7 +155,7 @@
             </div>
         </div>
     </section>
-    <section class="questionAnswer">
+    <section class="questionAnswer anchor" id="questionAnswer">
         <div class="title">ВОПРОС/ОТВЕТ</div>
         <div class="container">
             <div class="questionAnswer__wrapper">
@@ -186,7 +187,7 @@
             </div>
         </div>
     </section>
-    <section class="contacts">
+    <section class="contacts anchor" id="contacts">
         <div class="title">ХОЧУ В LIVEME (ТОЛЬКО ОТ 18 ЛЕТ)</div>
         <button class="button"><a href="https://vk.com/away.php?utf=1&to=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSd4teqQ9FtPRZXek8pYDtqER_C_EhYXX9dHgWp02dpDfMepKQ%2Fviewform%3Fusp%3Dsf_link" target="_blank">ЗАПОЛНИТЬ АНКЕТУ</a></button>
     </section>
@@ -199,6 +200,7 @@
             </div>
         </div>
     </section>
+   </div>
     <footer>
         <div class="container">
             <div class="footer__wrapper">
