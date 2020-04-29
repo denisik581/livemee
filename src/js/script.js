@@ -75,7 +75,7 @@ $(document).ready(function(){
         $('.answer_1, .answer_2, .answer_3, .answer_4, .answer_5, .answer_6, .answer_7').fadeOut('slow');
     });
     $('.answer__wrapper-question').on('click', function (e) {
-        e.preventDefault()
+        e.preventDefault();
     });
 
     $('.vopr_1').on('click', function() {
