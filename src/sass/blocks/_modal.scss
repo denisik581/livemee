@@ -1,0 +1,59 @@
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    top: 0;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all;
+    display: flex;
+    transform: translateY(-100%);
+    &__active {
+        transform: none;
+    }
+    &__close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 41px;
+        line-height: 21px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .answer {
+        background-color: #fff;
+        padding: 50px 100px;
+        padding-top: 0;
+        min-height: 750px;    
+        max-height: 750px;     
+        overflow-x: hidden;
+        display: none;
+        font-size: 17px;
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            &-question {
+                margin-top: 60px;
+                width: 28%;
+                height: 65px;
+                background-color: #fafafa;
+                border: 1px solid #e0e0e0;
+                overflow: hidden;
+                text-align: center;
+                a {
+                    margin: 0 auto;
+                    display: block;
+                    width: 80%;
+                    color: #000;
+                    font-size: 18px;
+                    padding: 5px 0;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

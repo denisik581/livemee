@@ -6,6 +6,7 @@ $(document).ready(function(){
         $(".plus").toggleClass("questionAnswer__wrapper-item_active");
     });
 
+
     var positions = [],
     currentActive = null,
     links = $('.scroll-to');
@@ -39,6 +40,89 @@ $(document).ready(function(){
         return false;
     });
     
+
+    $('.questio_1, .questio_2, .questio_3, .questio_4, .questio_5, .questio_6, .questio_7').click(function(e) {
+        e.preventDefault();
+        $('.overlay').toggleClass("overlay__active");
+
+        //$('.answer_1').css("display", 'block');
+    });
+
+    $('.questio_1').click(function(e) {
+        $('.answer_1').css("display", 'block');
+    });
+    $('.questio_2').click(function(e) {
+        $('.answer_2').css("display", 'block');
+    });
+    $('.questio_3').click(function(e) {
+        $('.answer_3').css("display", 'block');
+    });
+    $('.questio_4').click(function(e) {
+        $('.answer_4').css("display", 'block');
+    });
+    $('.questio_5').click(function(e) {
+        $('.answer_5').css("display", 'block');
+    });
+    $('.questio_6').click(function(e) {
+        $('.answer_6').css("display", 'block');
+    });
+    $('.questio_7').click(function(e) {
+        $('.answer_7').css("display", 'block');
+    });
+
+    $('.overlay__close, a').on('click', function () {
+        $('.overlay').removeClass('overlay__active');
+        $('.answer_1, .answer_2, .answer_3, .answer_4, .answer_5, .answer_6, .answer_7').fadeOut('slow');
+    });
+    $('.answer__wrapper-question').on('click', function (e) {
+        e.preventDefault()
+    });
+
+    $('.vopr_1').on('click', function() {
+        $('.answer_1, .answer_2, .answer_3, .answer_4, .answer_5, .answer_6, .answer_7').fadeOut('fast');
+        setTimeout(function() {
+            $('.answer_1').fadeIn('fast');
+          }, 250);
+    });
+    $('.vopr_2').on('click', function() {
+        $('.answer_1, .answer_2, .answer_3, .answer_4, .answer_5, .answer_6, .answer_7').fadeOut('fast');
+        setTimeout(function() {
+            $('.answer_2').fadeIn('fast');
+          }, 250);
+    });
+    $('.vopr_3').on('click', function() {
+        $('.answer_1, .answer_2, .answer_3, .answer_4, .answer_5, .answer_6, .answer_7').fadeOut('fast');
+        setTimeout(function() {
+            $('.answer_3').fadeIn('fast');
+          }, 250);
+    });
+    $('.vopr_4').on('click', function() {
+        $('.answer_1, .answer_2, .answer_3, .answer_4, .answer_5, .answer_6, .answer_7').fadeOut('fast');
+        setTimeout(function() {
+            $('.answer_4').fadeIn('fast');
+          }, 250);
+    });
+    $('.vopr_5').on('click', function() {
+        $('.answer_1, .answer_2, .answer_3, .answer_4, .answer_5, .answer_6, .answer_7').fadeOut('fast');
+        setTimeout(function() {
+            $('.answer_5').fadeIn('fast');
+          }, 250);
+    });
+    $('.vopr_6').on('click', function() {
+        $('.answer_1, .answer_2, .answer_3, .answer_4, .answer_5, .answer_6, .answer_7').fadeOut('fast');
+        setTimeout(function() {
+            $('.answer_6').fadeIn('fast');
+          }, 250);
+    });
+    $('.vopr_7').on('click', function() {
+        $('.answer_1, .answer_2, .answer_3, .answer_4, .answer_5, .answer_6, .answer_7').fadeOut('fast');
+        setTimeout(function() {
+            $('.answer_7').fadeIn('fast');
+          }, 250);
+    });
+
+
+
     new WOW().init();
 
 });

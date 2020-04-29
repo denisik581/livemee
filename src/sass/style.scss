@@ -11,6 +11,10 @@
 }
 .scroll-to.active{color: #e95095;}
 
+.reqwe {  
+    display: block;
+}
+
 @import 'blocks/title';
 @import 'blocks/button';
 
@@ -23,3 +27,4 @@
 @import 'blocks/questionAnswer';
 @import 'blocks/apps';
 @import 'blocks/footer';
+@import 'blocks/modal';
