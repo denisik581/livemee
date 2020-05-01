@@ -5,6 +5,9 @@
     font-weight: 500;
     color: rgba(0, 0, 0, 0.842);
     margin-top: 100px;
+    &_modal {
+        color: #fff;
+    }
     &::after {
         content: '';
         display: block;
