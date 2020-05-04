@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LiveMe</title>
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -13,12 +14,14 @@
     <header id="main" class="anchor">
 
         <div class="menu">
+            <div class="menu__mobile"></div>
             <div class="menu__logo"><a href="#main">LiveMe Agency KZ</a></div>
+            <div class="menu__mobilPhone"><a href="tel:+77471172499"><img src="icon/phone.svg" alt="alt"></a></div>
             <nav>
                 <ul class="menu__nav">
                     <li><a href="#main" class="scroll-to active">ГЛАВНАЯ</a></li>
                     <li><a href="#adventeger" class="scroll-to">О LIVEME</a></li>
-                    <li><a href="#whyliveme" class="scroll-to">ЕЩЁ<span>&rsaquo;</span></a>
+                    <li class="qrewpp"><a href="#" class="scroll-to">ЕЩЁ<span>&rsaquo;</span></a>
                         <ul class="descr">
                             <li><a href="#whyliveme" class="scroll-to">ПОЧЕМУ ИМЕННО LIVEME</a></li>
                             <li><a href="#questionAnswer" class="scroll-to">ВОПРОС/ОТВЕТ</a></li>
@@ -66,11 +69,11 @@
             </div>
         </div>
     </section>
-    <section class="subadventeger" id="#subadventeger">
+    <section class="subadventeger anchor" id="#subadventeger">
         <h2 class="subadventeger__subtitle">Почему именно Live Me?</h2>
         <button class="button button_subadventeger"><a href="#whyliveme">ЧИТАТЬ ДАЛЕЕ</a></button>
     </section>
-    <section class="partners">
+    <section class="partners" id="partners">
         <div class="title">ПАРТНЁРЫ</div>
         <div class="container">
             <div class="partners__wrapper">
@@ -207,20 +210,34 @@
                     <div class="footer__wrapper-descr-text">Авторские права © 2020 Все права защищены</div>
                 </div>
                 <div class="footer__wrapper-icon">
-                    <!-- <div class="footer__wrapper-icon-item"><img src="icon/facebook.svg" alt="faceboock"></div> -->
+                    
                     <div class="footer__wrapper-icon-item"><a href="#"><img src="icon/instagram.svg" alt="instagram"></a></div>
-                    <!-- <div class="footer__wrapper-icon-item"><img src="icon/telegram.svg" alt="telegram"></div> -->
+                    
                 </div>
             </div>
         </div>
     </footer>
 
+
     <div class="overlay">
         <div class="overlay__close">&times;</div>
         <div class="container">
 
+            <div class="mobile-menu"> 
+                <ul>
+                    <li><a href="#main" class="scroll-to active">ГЛАВНАЯ</a></>
+                    <li><a href="#adventeger" class="scroll-to">О LIVEME</a></li>
+                    <li><a href="#whyliveme" class="scroll-to">ПОЧЕМУ ИМЕННО LIVEME</a></li>
+                    <li><a href="#questionAnswer" class="scroll-to">ВОПРОС/ОТВЕТ</a></li>
+                    <li><a href="#contacts" class="scroll-to">ХОЧУ В LIVEME (ТОЛЬКО ОТ 18 ЛЕТ)</a></li>
+                    <li><a href="#apps" class="scroll-to">ПРИЛОЖЕНИЕ</a></li>
+                    <li class="li-hr"></li>
+                    <li><a href="#partners" class="scroll-to">ПАРТНЁРЫ</a></li>
+                </ul>
+            </div>
+
             <div class="instagram">
-                <a href="#"><img src="icon/instagram.svg" alt="instagram"></a>
+                <a href="https://instagram.com/livemekz/?hl=ru"><img src="icon/instagram.svg" alt="instagram"></a>
             </div>
 
             <div class="contacts request" id="contacts">
@@ -229,7 +246,7 @@
             </div>
 
             <div class="phoneee">
-                <img src="icon/phone_2.svg" alt="phone"><a href="tel:88888888888">8 (888) 888 88-88</a>
+                <img src="icon/phone_2.svg" alt="phone"><a href="tel:+77471172499">+7 (747) 117 24-99</a>
             </div>
             
             
@@ -409,9 +426,6 @@
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.js"></script> -->
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>

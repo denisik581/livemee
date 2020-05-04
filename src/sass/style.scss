@@ -1,6 +1,7 @@
 * {
     font-family: 'Museo', sans-serif;
 }
+
 .container {
     position: relative;
     width: 1170px;
@@ -28,3 +29,5 @@
 @import 'blocks/apps';
 @import 'blocks/footer';
 @import 'blocks/modal';
+
+@import 'blocks/media';
